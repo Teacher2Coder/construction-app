@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './index.css';
+import '../node_modules/bulma/css/bulma.css';
 
 import App from './App';
 import ErrorPage from './pages/ErrorPage'
