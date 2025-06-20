@@ -1,27 +1,13 @@
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter as Router } from 'react-router-dom'
+import App from './App.jsx'
+import './index.css'
 
-import './index.css';
-import '../node_modules/bulma/css/bulma.css';
-
-import App from './App';
-import ErrorPage from './pages/ErrorPage'
-import HomePage from './pages/HomePage';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />
-      }
-    ]
-  }
-])
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
-);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </StrictMode>
+)

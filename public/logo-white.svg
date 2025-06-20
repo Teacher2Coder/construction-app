@@ -1,0 +1,27 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- House Structure -->
+  <path d="M20 45 L40 25 L60 45 L60 65 L20 65 Z" fill="white" stroke="rgba(255,255,255,0.8)" stroke-width="2"/>
+  
+  <!-- Roof -->
+  <path d="M15 45 L40 20 L65 45 L60 45 L40 25 L20 45 Z" fill="rgba(255,255,255,0.9)"/>
+  
+  <!-- Door -->
+  <rect x="35" y="50" width="10" height="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+  
+  <!-- Window -->
+  <rect x="25" y="35" width="8" height="8" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+  
+  <!-- Hammer -->
+  <g transform="translate(70, 35)">
+    <!-- Hammer Handle -->
+    <rect x="5" y="15" width="3" height="20" fill="rgba(255,255,255,0.8)" rx="1"/>
+    
+    <!-- Hammer Head -->
+    <rect x="0" y="12" width="13" height="6" fill="white" rx="2"/>
+    
+    <!-- Hammer Claw -->
+    <path d="M0 15 L-3 10 L-1 8 L3 12" fill="white"/>
+  </g>
+  
+
+</svg> 
